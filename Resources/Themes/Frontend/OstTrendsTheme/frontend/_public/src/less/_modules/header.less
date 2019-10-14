@@ -10,5 +10,265 @@
 
 
 
+.shop--navigation .navigation--entry .account--link.account--user-loggedin:after {
+    background: #3169b1;
+    line-height: 18px;
+    height: 18px;
+    width: 18px;
+}
+
+.shop--navigation .cart--quantity, .shop--navigation .notes--quantity {
+    top: -7px;
+    left: 21px;
+}
+
+body .header-main {
+    div.top-bar {
+        margin-top: 0;
+        padding-top: 0;
+
+        div.container {
+            background-color: @color-background-gray;
+            text-align: center;
+            padding: 4px 0;
+            font-size: 0.7rem;
+            color: #556364;
+            line-height: 1.1rem;
+            text-transform: uppercase;
+            box-shadow: none;
+
+            ul li {
+                display: inline-block;
+                margin-left: 30px;
+            }
+
+            ul li:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    div.container.header--navigation {
+        nav.shop--navigation {
+            ul li.navigation--entry.entry--search {
+                div.header--claim {
+                    display: none;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #0089c7;
+                    font-size: 20px;
+                    margin-bottom: 4px;
+                    line-height: 24px;
+                    cursor: default;
+                }
+
+                form.main-search--form {
+                    box-shadow: none;
+                }
+                input.main-search--field {
+                    background: #ffffff;
+                    border-radius: 1px;
+                    box-shadow: none;
+                    border: 1px solid #bccf03;
+                }
+                button.main-search--button {
+                    color: #bccf03;
+                }
+            }
+
+            li.navigation--entry > a.entry--link span.name {
+                display: none;
+            }
+
+            li.navigation--entry.entry--service {
+                display: none;
+            }
+
+            li.navigation--entry.entry--service {
+                i {
+                    font-size: 20px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and(min-width: @tabletViewportWidth) {
+    body .header-main {
+        div.container.header--navigation {
+            nav.shop--navigation {
+                li.navigation--entry.entry--service {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and(min-width: @tabletLandscapeViewportWidth) {
+    body .header-main {
+        div.top-bar {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        div.header--navigation.container {
+            div.logo-main {
+                width: 33%;
+                margin-right: 2%;
+
+                div.logo--shop {
+                    height: 55px;
+                    width: 100%;
+
+                    a.logo--link {
+                        height: 55px;
+                        width: 100%;
+                    }
+                }
+            }
+
+            nav.shop--navigation {
+                width: 65%;
+                position: absolute;
+                right: 0;
+                bottom: 32px;
+
+                li.navigation--entry.entry--search {
+                    width: 45%;
+                    margin-right: 0;
+                    left: 0;
+                    margin-top: 21px;
+                }
+
+                // default elements within any navigation entry
+                li.navigation--entry {
+
+                    // remove box from any link
+                    > a.entry--link {
+                        border: 0;
+                        background: none;
+
+                        // settings from .btn which are overwritten for some entries
+                        height: 40px;
+                        padding: 2px 10px 2px 8px;
+
+                        // size of every icon
+                        i {
+                            display: block;
+                            width: 42px;
+                            height: 42px;
+                            margin: auto;
+                        }
+
+                        i.icon--heart {
+                            background-image: url(http://tre5510/custom/plugins/OstTrendsTheme/Resources/Themes/Frontend/OstTrendsTheme/frontend/_public/src/img/header-icons/icon--note.png);
+                        }
+
+                        i.icon--phone {
+                            background-image: url(http://tre5510/custom/plugins/OstTrendsTheme/Resources/Themes/Frontend/OstTrendsTheme/frontend/_public/src/img/header-icons/icon--service.png);
+                        }
+
+                        i.icon--account {
+                            background-image: url(http://tre5510/custom/plugins/OstTrendsTheme/Resources/Themes/Frontend/OstTrendsTheme/frontend/_public/src/img/header-icons/icon--account.png);
+                        }
+
+                        i.icon--basket {
+                            background-image: url(http://tre5510/custom/plugins/OstTrendsTheme/Resources/Themes/Frontend/OstTrendsTheme/frontend/_public/src/img/header-icons/icon--basket.png);
+                        }
+
+                        i:before {
+                            content: ""
+                        }
+
+                        // size and position of name
+                        span.name {
+                            line-height: 24px;
+                            font-size: 0.7rem;
+                            font-weight: bold;
+                            display: block;
+                            color: #0089c7;
+                        }
+                    }
+                }
+
+                // our problem children...
+                li.navigation--entry.entry--account,
+                li.navigation--entry.entry--cart {
+                    > a i {
+                        position: relative;
+                        top: auto;
+                        left: auto;
+                    }
+                }
+
+                // specific notepad
+                li.navigation--entry.entry--notepad {
+                    .notes--quantity {
+                        left: 60%;
+                    }
+                }
+
+                // specific account
+                li.navigation--entry.entry--account {
+                    .account--display {
+                        display: none;
+                    }
+                }
+
+                // specific cart
+                li.navigation--entry.entry--cart {
+                    .cart--amount {
+                        display: none;
+                    }
+                    .cart--quantity {
+                        left: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and(min-width: @desktopViewportWidth) {
+    body .header-main {
+        div.header--navigation.container {
+            div.logo-main {
+                width: 30%;
+                margin-right: 0;
+
+                div.logo--shop {
+                    height: 105px;
+
+                    a.logo--link {
+                        height: 105px;
+                    }
+                }
+            }
+
+            nav.shop--navigation {
+                bottom: 48px;
+                width: 70%;
+
+                li.navigation--entry.entry--search {
+                    width: 52%;
+                    margin-top: -31px;
+
+                    div.header--claim {
+                        display: block !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
