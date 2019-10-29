@@ -11,6 +11,9 @@
  * 1.0.1
  * - changed header to new corporate design
  *
+ * 1.0.2
+ * - fixed header
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
