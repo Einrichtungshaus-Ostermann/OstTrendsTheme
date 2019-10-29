@@ -14,6 +14,9 @@
  * 1.0.2
  * - fixed header
  *
+ * 1.0.3
+ * - added top-margin to header
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
