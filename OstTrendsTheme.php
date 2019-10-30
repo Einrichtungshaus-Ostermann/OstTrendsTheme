@@ -20,6 +20,9 @@
  * 1.0.4
  * - fixed overlapping search live result
  *
+ * 1.0.5
+ * - fixed store links in footer
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
