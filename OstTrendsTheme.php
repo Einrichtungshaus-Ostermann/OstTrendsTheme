@@ -23,6 +23,9 @@
  * 1.0.5
  * - fixed store links in footer
  *
+ * 1.0.6
+ * - added images for faq plugin
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
