@@ -15,20 +15,25 @@
     </ul>
 {/block}
 
-{* set the payment methods *}
-{block name='payment-methods--list'}
-    <img src="{link file='frontend/_public/src/img/payment-icons/payment-paypal.png'}" alt="Paypal" title="Paypal">
-    <img src="{link file='frontend/_public/src/img/payment-icons/payment-sofort.png'}" alt="Sofort" title="Sofort">
-    <img src="{link file='frontend/_public/src/img/payment-icons/payment-kreditkarte.png'}" alt="Kreditkarte" title="Kreditkarte">
-    <img src="{link file='frontend/_public/src/img/payment-icons/payment-credit-plus.png'}" alt="Credit-Plus" title="Credit-Plus">
-    <img src="{link file='frontend/_public/src/img/payment-icons/payment-vorkasse.png'}" alt="Vorkasse" title="Vorkasse">
-    <img src="{link file='frontend/_public/src/img/payment-icons/payment-nachnahme.png'}" alt="Nachnahme" title="Nachnahme">
-    <img src="{link file='frontend/_public/src/img/payment-icons/payment-rechnung.png'}" alt="Rechnung" title="Rechnung">
-    <img src="{link file='frontend/_public/src/img/payment-icons/payment-ratenkauf.png'}" alt="Ratenkauf" title="Ratenkauf">
+{* security icons *}
+{block name="security--content"}
+    <a href="https://www.trustedshops.de/bewertung/info_X5EFB08F236ABE1E93DC0ECED570FFABF.html" target="_blank"><img src="{link file='frontend/_public/src/img/trust-icons/footer-trust-icons.jpg'}" alt="..." title="..."></a>
 {/block}
 
 {* set the shops *}
 {block name='shops--list'}
+    <a href="https://www.trends.de" target="_blank">
+        <img src="{link file='frontend/_public/src/img/shop-icons/footer-trends-logo.jpg'}" alt="Trends online" title="Trends online">
+        <span>trends.de</span>
+    </a>
+    <a href="https://www.trends.de/baby-trends/" target="_blank">
+        <img src="{link file='frontend/_public/src/img/shop-icons/footer-babytrends-logo.jpg'}" alt="Baby-Trends" title="Baby-Trends">
+        <span>baby-trends.de</span>
+    </a>
+    <a href="https://www.ostermann.de/themenwelten/loft-by-ostermann/" target="_blank">
+        <img src="{link file='frontend/_public/src/img/shop-icons/footer-loft-logo.jpg'}" alt="LOFT online" title="LOFT online">
+        <span>loft-online.de</span>
+    </a>
 {/block}
 
 {* set the contact info *}
@@ -41,7 +46,10 @@
 
 {* set the social media data *}
 {block name="social-media--content"}
-    Facebook, Twitter...
+    <a href="https://de-de.facebook.com/moebel.trends" target="_blank"><img src="{link file='frontend/_public/src/img/social-media-icons/footer-facebook.jpg'}" alt="Facebook" title="Facebook"></a>
+    <a href="https://www.instagram.com/moebel.trends/" target="_blank"><img src="{link file='frontend/_public/src/img/social-media-icons/footer-instagram.jpg'}" alt="Facebook" title="Facebook"></a>
+    <a href="https://www.pinterest.de/moebelostermann/" target="_blank"><img src="{link file='frontend/_public/src/img/social-media-icons/footer-pinterest.jpg'}" alt="Facebook" title="Facebook"></a>
+    <a href="https://www.youtube.com/user/moebeltrends" target="_blank"><img src="{link file='frontend/_public/src/img/social-media-icons/footer-youtube.jpg'}" alt="Facebook" title="Facebook"></a>
 {/block}
 
 {* set seo title *}

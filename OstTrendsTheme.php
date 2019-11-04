@@ -26,6 +26,9 @@
  * 1.0.6
  * - added images for faq plugin
  *
+ * 1.0.7
+ * - fixed footer
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
