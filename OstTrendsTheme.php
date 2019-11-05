@@ -29,6 +29,9 @@
  * 1.0.7
  * - fixed footer
  *
+ * 1.0.8
+ * - added logos for lower viewports
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
