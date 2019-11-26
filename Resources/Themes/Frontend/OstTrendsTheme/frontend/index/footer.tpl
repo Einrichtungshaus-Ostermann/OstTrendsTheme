@@ -28,6 +28,10 @@
 {* set the shops *}
 {block name='shops--list'}
     <div class="block-group">
+        <a href="https://www.ostermann.de" target="_blank" class="block">
+            <img src="{link file='frontend/_public/src/img/shop-icons/footer-ostermann-logo.jpg'}" alt="OSTERMANN.de" title="OSTERMANN.de">
+            <span>ostermann.de</span>
+        </a>
     </div>
 {/block}
 

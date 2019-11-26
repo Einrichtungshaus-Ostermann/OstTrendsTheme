@@ -38,6 +38,9 @@
  * 1.0.10
  * - fixed footer icons
  *
+ * 1.0.11
+ * - fixed footer shop-logos
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
