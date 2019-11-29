@@ -41,6 +41,9 @@
  * 1.0.11
  * - fixed footer shop-logos
  *
+ * 1.0.12
+ * - added css for pmsw-cookie-consent-pro plugin
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
