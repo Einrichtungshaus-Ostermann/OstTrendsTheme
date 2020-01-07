@@ -44,6 +44,9 @@
  * 1.0.12
  * - added css for pmsw-cookie-consent-pro plugin
  *
+ * 1.0.13
+ * - changed top-shop logo in footer
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

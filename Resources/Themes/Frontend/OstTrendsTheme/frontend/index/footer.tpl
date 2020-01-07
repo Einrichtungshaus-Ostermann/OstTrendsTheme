@@ -20,7 +20,7 @@
     <div class="block-group">
         <a class="block" href="https://www.google.com/shopping/ratings/account/metrics?q=trends.de&c=DE&v=4" target="_blank"><img src="{link file='frontend/_public/src/img/trust-icons/footer-trust-icon-google.jpg'}" alt="Google Kundenrezensionen" title="Google Kundenrezensionen"></a>
         <a class="block" href="https://www.trustedshops.de/bewertung/info_X5EFB08F236ABE1E93DC0ECED570FFABF.html" target="_blank"><img src="{link file='frontend/_public/src/img/trust-icons/footer-trust-icon-ssl.jpg'}" alt="SSL verschlüsselt" title="SSL verschlüsselt"></a>
-        <a class="block" href="https://de.statista.com/page/top-shops2019" target="_blank"><img src="{link file='frontend/_public/src/img/trust-icons/footer-trust-icon-top-shop.jpg'}" alt="Top Shops 2019" title="Top Shops 2019"></a>
+        <a class="block" href="https://de.statista.com/page/top-shops2019" target="_blank"><img src="{link file='frontend/_public/src/img/trust-icons/footer-trust-icon-top-shop-2019.jpg'}" alt="Top Shops 2019" title="Top Shops 2019"></a>
         <a class="block" href="https://www.trustedshops.de/bewertung/info_X5EFB08F236ABE1E93DC0ECED570FFABF.html" target="_blank"><img src="{link file='frontend/_public/src/img/trust-icons/footer-trust-icon-trusted-shops.jpg'}" alt="Trusted Shops" title="Trusted Shops"></a>
     </div>
 {/block}
