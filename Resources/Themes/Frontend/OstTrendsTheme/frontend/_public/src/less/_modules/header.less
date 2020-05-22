@@ -274,13 +274,30 @@ body .header-main {
 
 
 
+.main-search--results {
+    top: 231px;
+}
 
-
-
-@media screen and(min-width: @tabletViewportWidth) {
+@media screen and(min-width: @phoneLandscapeViewportWidth) {
     .main-search--results {
-        top: 102px;
+        top: 168px;
     }
 }
 
+@media screen and(min-width: @tabletViewportWidth) {
+    .main-search--results {
+        top: 122px;
+    }
+}
 
+@media screen and(min-width: @tabletLandscapeViewportWidth) {
+    .main-search--results {
+        top: 132px;
+    }
+}
+
+@media screen and(min-width: @desktopViewportWidth) {
+    .main-search--results {
+        top: 168px;
+    }
+}

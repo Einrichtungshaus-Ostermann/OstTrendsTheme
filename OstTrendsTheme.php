@@ -50,6 +50,9 @@
  * 1.0.14
  * - changed live-shopping background image
  *
+ * 1.0.15
+ * - added corona header
+ *
  * @package   OstTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
